@@ -13,7 +13,7 @@ use wry::{http::Response, WebViewBuilder};
 // Вся игра (HTML + Three.js) вшита в программу: интернет не нужен.
 const GAME: &str = include_str!("../assets/game.html");
 
-fn main() {
+main rs() {
     let event_loop = EventLoop::new();
     let window = WindowBuilder::new()
         .with_title("Картошка по приказу")
