@@ -1,0 +1,16 @@
+[package]
+name = "potato_please"
+version = "1.0.0"
+edition = "2021"
+description = "Potato Please 3D: окно на Rust (tao + wry), игра на WebGL"
+
+[dependencies]
+tao = "=0.26.2"
+wry = "=0.37.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
