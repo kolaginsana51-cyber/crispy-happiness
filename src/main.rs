@@ -11,7 +11,7 @@ use tao::{
 use wry::{http::Response, WebViewBuilder};
 
 // Вся игра (HTML + Three.js) вшита в программу: интернет не нужен.
-const GAME: &str = include_str!("../assets/game.html");
+const GAME: &str = include_str!("../game.html");
 
 main rs() {
     let event_loop = EventLoop::new();
